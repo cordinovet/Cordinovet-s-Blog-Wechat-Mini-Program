@@ -33,6 +33,13 @@
   </swiper>
 </view>
 
+
+  <view class='common-text'>
+    <view class='common-text-left'><text>哟(๑＞ڡ＜)来啦~</text></view>
+     <view class='common-text-right'><text>大佬请坐</text></view>
+   </view>
+
+
 <view style="display:{{showallDisplay}}">
   <!-- 图标导航和搜索 -->
   <view style="display:{{floatDisplay}}">
@@ -86,6 +93,7 @@
       </scroll-view>
     </view>
 
+    
     <!-- 搜索 -->
      <form catchsubmit="formSubmit" catchreset="formReset" id="search-form">
       <view class="search-box">
