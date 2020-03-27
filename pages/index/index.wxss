@@ -91,6 +91,33 @@ font-weight: 500;
   margin-right: 10rpx;
 }
 
+
+/*文章列表*/
+.common-page-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+  padding: 0 24rpx;
+  background: #fff;
+}
+
+.common-page-list-left {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 500;
+  margin: auto;
+}
+
+/* 横着的分割View样式 */
+/*分割线样式*/
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 3rpx;
+ }
+
 /* 搜索 */
 .search-box {
   display: flex;

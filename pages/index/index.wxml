@@ -58,13 +58,13 @@
     </view> -->
 
     <!-- 精选栏目 -->
-    <view class="selected-nav" wx:if="{{topNav.length != 0}}">
+    <!--<view class="selected-nav" wx:if="{{topNav.length != 0}}">
       <view class='common-subtitle'>
         <view class='common-subtitle-left'>哟(๑＞ڡ＜)来啦~</view>
         <view class='common-subtitle-right'>大佬请坐</view>
-      </view>
+      </view>-->
       <!-- 栏目列表 -->
-      <scroll-view scroll-x>
+      <!--<scroll-view scroll-x>
         <view class="selected-nav-list">
           <block  wx:key="id" wx:for="{{topNav}}">
             <view wx:if="{{ item.redirecttype == 'webpage' || item.redirecttype == 'apppage'}}">
@@ -91,7 +91,7 @@
           </block>
         </view>
       </scroll-view>
-    </view>
+    </view>-->
 
     
     <!-- 搜索 -->
@@ -107,7 +107,12 @@
 
   <!-- 官方关注公众号 -->
   <official-account></official-account>
-  
+  <!-- 文章列表文字 -->
+  <view class='common-page-list'>
+    <view class='common-page-list-left'><text>文章列表</text></view>
+   </view>
+    <!-- 分割线 -->
+  <view class="divLine"></view>
   <!-- 文章列表 -->
   <view class="container">
     <!-- 列表template模板 -->
