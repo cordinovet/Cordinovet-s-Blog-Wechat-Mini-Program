@@ -64,7 +64,7 @@ Page({
     } else {
       wx.showModal({
         title: '提示',
-        content: '请输入内容',
+        content: '你什么都没输入, 就想找到好宝贝？~~~',
         showCancel: false,
       });
     }

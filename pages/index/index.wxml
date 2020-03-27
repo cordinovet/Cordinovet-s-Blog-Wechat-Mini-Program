@@ -99,7 +99,7 @@
       <view class="search-box">
         <input value="" id="search-input" name="input" confirm-type="search" class="search-input" placeholder="试试能搜出什么大宝贝吧~" bindconfirm="formSubmit"></input>
         <button class="search-button" form-type="submit" size="mini" plain="true">
-          <icon type="search" color="#959595" size="16" />
+          <icon type="search" color="#959595" size="14" />
         </button>
       </view>
     </form> 
