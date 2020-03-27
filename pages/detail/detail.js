@@ -1,12 +1,4 @@
-/*
- * WordPres版微信小程序
- * author: jianbo
- * organization: 守望轩  www.watch-life.net
- * github:    https://github.com/iamxjb/winxin-app-watch-life.net
- * 技术支持微信号：iamxjb
- * 开源协议：MIT
- *  *Copyright (c) 2017 https://www.watch-life.net All rights reserved.
- */
+
 
 
 import config from '../../utils/config.js'
@@ -49,7 +41,7 @@ Page({
     isLastPage: false,
     parentID: "0",
     focus: false,
-    placeholder: "评论...",
+    placeholder: "送人玫瑰，手留余香~",
     postID: null,
     scrollHeight: 0,
     postList: [],
@@ -785,7 +777,7 @@ Page({
         if (text === '') {
           self.setData({
             parentID: "0",
-            placeholder: "评论...",
+            placeholder: "送人玫瑰，手留余香~",
             userid: "",
             toFromId: "",
             commentdate: ""
@@ -855,7 +847,7 @@ Page({
                   content: '',
                   parentID: "0",
                   userid: 0,
-                  placeholder: "评论...",
+                  placeholder: "送人玫瑰，手留余香~",
                   focus: false,
                   commentsList: []
 
