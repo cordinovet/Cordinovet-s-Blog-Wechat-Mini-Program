@@ -101,7 +101,7 @@ function ModalViewClass() {
                 success(result) {
                     console.log(result)
                     wx.showModal({
-                        title: '提示',
+                        title: '提个醒',
                         content: '二维码海报已存入手机相册，赶快分享吧',
                         showCancel: false,
                         success: function (res) {

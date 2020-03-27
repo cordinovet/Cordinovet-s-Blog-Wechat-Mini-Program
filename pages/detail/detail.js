@@ -812,8 +812,8 @@ Page({
     if (comment.length === 0) {
       self.setData({
         'dialog.hidden': false,
-        'dialog.title': '提示',
-        'dialog.content': '没有填写评论内容。'
+        'dialog.title': '提个醒',
+        'dialog.content': '请填写评论内容。'
 
       });
     }
@@ -892,7 +892,7 @@ Page({
                 self.setData({
                   'dialog.hidden': false,
                   'dialog.title': '提示',
-                  'dialog.content': '评论失败，请稍后重试。'
+                  'dialog.content': '评论失败，嘤嘤嘤(╥╯^╰╥)'
 
                 });
               }
