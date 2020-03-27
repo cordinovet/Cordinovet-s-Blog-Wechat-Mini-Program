@@ -101,7 +101,7 @@ Page({
   },  
   onShareAppMessage: function () {
     return {
-      title: '关于“' + config.getWebsiteName +'”官方小程序',
+      title: '关于“' + config.getWebsiteName +'”',
       path: 'pages/about/about',
       success: function (res) {
         // 转发成功

@@ -31,7 +31,7 @@ Page({
         { id: '3', name: '点赞', selected: false },
         { id: '4', name: '鼓励', selected: false },
         { id: '5', name: '订阅', selected: false },
-        // { id: '6', name: '言论', selected: false }
+        //{ id: '6', name: '言论', selected: false }
     ],
     tab: '1',
     showerror: "none",
@@ -170,7 +170,7 @@ Page({
       }
   },
   onShareAppMessage: function () {
-      var title = "分享我在“" + config.getWebsiteName + "浏览、评论、点赞、鼓励的文章";
+      var title = "分享在“" + config.getWebsiteName + "”看过的文章, 多看看, 会有更多收获哟~";
       var path = "pages/readlog/readlog";
       return {
           title: title,

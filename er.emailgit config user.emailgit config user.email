@@ -1,0 +1,181 @@
+[33mcommit b1806aa81803c095784abd5c23465d40b7e0e047[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mCordinovet-s-Blog-Wechat-Mini-Program.git/origin[m[33m, [m[1;31mCordinovet-s-Blog-Wechat-Mini-Program.git/master[m[33m, [m[1;32morigin[m[33m)[m
+Author: cordinovet <1259025204@qq.com>
+Date:   Thu Mar 26 22:43:13 2020 +0800
+
+    Update README.md
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex c20715d..ff461ef 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,390 +1 @@[m
+[31m-# 微慕小程序开源版-WordPress版微信小程序[m
+[31m-[m
+[31m-![微慕wordpress微信小程序](https://www.watch-life.net/images/minapper-weixin-wp-700.jpg)[m
+[31m-[m
+[31m-![微慕wordpress微信小程序](https://www.watch-life.net/images/wordpresswinxinapp700.png) [m
+[31m-[m
+[31m-# 功能清单：[m
+[31m-[m
+[31m-1.缩略图的方式显示文章列表（首页，分类文章），包括显示文章分类和发布时间，加载分页。[m
+[31m-[m
+[31m-2.在首页用轮播方式显示指定文章。[m
+[31m-[m
+[31m-3.显示文章分类（专题），包括显示分类的封面图片。[m
+[31m-[m
+[31m-4.显示文章内容页，包括文章站内链接跳转，站外链接复制到剪切板，显示猜你喜欢的相关文章。[m
+[31m-[m
+[31m-5.显示文章评论，提交评论和回复评论，加载评论分页，显示微信用户评论者的头像。(可以设置是否开启评论）[m
+[31m-[m
+[31m-6.显示文章排行：浏览数、评论数、点赞数、赞赏数。[m
+[31m-[m
+[31m-7.显示wordpress“页面”类文字（关于页面）。[m
+[31m-[m
+[31m-8.对文章内容的全文搜索。[m
+[31m-[m
+[31m-9.小程序页面的分享和转发。[m
+[31m-[m
+[31m-10.WordPress 插件的配套功能。[m
+[31m-[m
+[31m-11.文章浏览数显示及更新。[m
+[31m-[m
+[31m-12.文章微信用户点赞及点赞的微信用户头像显示。[m
+[31m-[m
+[31m-13.通过微信支付对文章赞赏。[m
+[31m-[m
+[31m-14.赞赏后发送模版消息。[m
+[31m-[m
+[31m-15.web-view内嵌网页跳转。[m
+[31m-[m
+[31m-16.回复评论发送模板消息，赞赏发送模板消息。[m
+[31m-[m
+[31m-17.订阅专题。[m
+[31m-[m
+[31m-18.文章海报（分享微信朋友圈的卡片）。[m
+[31m-[m
+[31m-19.支持微信用户授权登录，获取用户头像及昵称。[m
+[31m-[m
+[31m-20.支持显示最新的评论列表。[m
+[31m-[m
+[31m-21.微信小程序广告[m
+[31m-[m
+[31m-22.支持PC端微信[m
+[31m-[m
+[31m-# 开源地址[m
+[31m-[m
+[31m-https://github.com/iamxjb/winxin-app-watch-life.net[m
+[31m-[m
+[31m-如果因为某些原因github无法访问，可以选择以下镜像地址：[m
+[31m-[m
+[31m-1.https://git.oschina.net/iamxjb/winxin-app-watch-life.net[m
+[31m-[m
+[31m-2.https://code.aliyun.com/iamxjb/winxin-app-watch-life.net[m
+[31m-[m
+[31m-3.https://coding.net/u/xjb/p/winxin-app-watch-life.net[m
+[31m-[m
+[31m-4.https://gitlab.com/xiajianbo/winxin-app-watch-life.net[m
+[31m-[m
+[31m-[m
+[31m-# 小程序访问微信二维码：[m
+[31m-[m
+[31m-![wordpress版微信小程序](https://www.watch-life.net/images/wordpressweixinapp430.jpg) [m
+[31m-[m
+[31m-[m
+[31m-# 技术支持网站：[m
+[31m-[m
+[31m-https://www.watch-life.net[m
+[31m-[m
+[31m-https://www.minapper.com[m
+[31m-[m
+[31m-# 技术支持微信号：iamxjb[m
+[31m-[m
+[31m-![iamxjb](https://www.watch-life.net/images/iamxjbweixin.jpg) [m
+[31m-[m
+[31m-# 开源协议：MIT[m
+[31m-[m
+[31m-[m
+[31m-# 小程序配套wordpress插件：[m
+[31m-[m
+[31m-本小程序完整使用需要配合我编写的wordpress插件REST API TO MiniProgram，才能完整使用，插件下载地址： https://github.com/iamxjb/rest-api-to-miniprogram[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# 安装使用说明文档[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/weixin-app-install.html" target="_blank" rel="noopener">WordPress版微信小程序安装使用说明</a>[m
+[31m-[m
+[31m-# 微慕WordPress小程序增强版和专业版[m
+[31m-[m
+[31m-# 为专业人士提供更专业、功能更强的的WordPress小程序，了解详情请访问：https://www.minapper.com[m
+[31m-[m
+[31m-1.<a href="https://www.watch-life.net/wordpress/miniapper.html" target="_blank" rel="noopener">微慕WordPress小程序专业版发布</a>[m
+[31m-[m
+[31m-2.<a href="https://www.watch-life.net/wordpress/minapper-plus.html" target="_blank" rel="noopener">微慕WordPress小程序增强发布</a>[m
+[31m-[m
+[31m-![微慕小程序增强版和专业版](http://www.minapper.com/images/minapper-free-plus-pro-price-20191104.jpg)[m
+[31m-[m
+[31m-# 微慕WordPress小程序专业版二维码[m
+[31m-[m
+[31m-1.微慕WordPress小程序专业标准版[m
+[31m-[m
+[31m-![微慕WordPress小程序专业标准版](https://www.watch-life.net/images/minapper.jpg)[m
+[31m-[m
+[31m-2.微慕WordPress小程序专业旅游版[m
+[31m-[m
+[31m-![微慕WordPress小程序专业旅游版](https://www.watch-life.net/images/minapper-lv.jpg)[m
+[31m-[m
+[31m-3.微慕WordPress小程序专业企业版[m
+[31m-[m
+[31m-![微慕WordPress小程序专业企业版](https://www.watch-life.net/images/minapper-bi.jpg)[m
+[31m-[m
+[31m-4.微慕WordPress小程序专业图片版[m
+[31m-[m
+[31m-![微慕WordPress小程序专业图片版](https://www.watch-life.net/images/minapper-tu.jpg)[m
+[31m-[m
+[31m-# 微慕WordPress小程序增强版版二维码[m
+[31m-[m
+[31m-[m
+[31m-1.微慕WordPress小程序增强版微信版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版微信版](https://www.watch-life.net/images/minapper-plus-wx.jpg)[m
+[31m-[m
+[31m-2.微慕WordPress小程序增强版QQ版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版QQ版](https://www.watch-life.net/images/minapper-plus-qq.jpg)[m
+[31m-[m
+[31m-3.微慕WordPress小程序增强版百度版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版百度版](https://www.watch-life.net/images/minapper-plus-baidu.jpg)[m
+[31m-[m
+[31m-4.微慕WordPress小程序增强版头条版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版头条版](https://www.watch-life.net/images/minapper-plus-toutiao.jpg)[m
+[31m-[m
+[31m-5.微慕WordPress小程序增强版抖音版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版抖音版](https://www.watch-life.net/images/minapper-plus-toutiao.jpg)[m
+[31m-[m
+[31m-6.微慕WordPress小程序增强版支付宝版[m
+[31m-[m
+[31m-![微慕WordPress小程序增强版支付宝版](https://www.watch-life.net/images/minapper-plus-alipay.jpg)[m
+[31m-[m
+[31m-[m
+[31m-# 程序开发系列文章[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/weixin-connect-wordpress.html" target="_blank" rel="noopener noreferrer">1.用微信小程序连接WordPress网站</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-weixin-1-5.html" target="_blank" rel="noopener noreferrer">2.WordPress版微信小程序1.5版本发布</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-weixin-2.html" target="_blank" rel="noopener noreferrer">3.WordPress版微信小程序2.0版本发布</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-rest-api-weixin-weapp.html" target="_blank" rel="noopener noreferrer">4.利用WordPress REST API 开发微信小程序从入门到放弃</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wechat/wordpress-weixin-2-1-5.html">5.WordPress版微信小程序2.1.5版发布</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-weixin-2-1-8.html" target="_blank" rel="noopener noreferrer">6.WordPress版微信小程序2.1.8版发布</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-rest-api.html" rel="bookmark">7.WordPress版微信小程序开发系列(一)：WordPress REST API</a>[m
+[31m-[m
+[31m-<a href="https://www.watch-life.net/wordpress/wordpress-weixin-2-2-0.html" target="_blank" rel="noopener noreferrer">8.WordPress版微信小程序2.2.0版发布</a>[m
+[31m-[m
+[31m-<a href=

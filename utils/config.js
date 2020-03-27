@@ -29,6 +29,7 @@ var DOWNLOADFILEDOMAIN = [
     { id: 4, domain: 'thirdwx.qlogo.cn'},
     { id: 5, domain: 'www.wnag.com.cn'},
     { id: 6, domain: 'wx.qlogo.cn'},
+    { id: 7, domain: 'image.wnag.com.cn'}
 ];
  //首页图标导航
  //参数说明：'name'为名称，'image'为图标路径，'url'为跳转的页面，'redirecttype'为跳转的类型，apppage为本小程序的页面，miniapp为其他微信小程序,webpage为web-view的页面
