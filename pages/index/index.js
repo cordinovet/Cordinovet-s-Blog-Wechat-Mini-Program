@@ -54,7 +54,7 @@ Page({
     } else {
       wx.showModal({
         title: '提个醒',
-        content: '你什么都没输入, 就想找到好宝贝？╭(╯^╰)╮',
+        content: '你什么都没输入, 就想找到大宝贝？╭(╯^╰)╮',
         showCancel: false,
       });
     }
