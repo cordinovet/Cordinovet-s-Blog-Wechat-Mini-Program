@@ -8,18 +8,16 @@ var WEBSITENAME="可定博客"; //网站名称
 var PAGECOUNT='10'; //每页文章数目
 var PAYTEMPPLATEID = 'hzKpxuPF2rw7O-qTElkeoE0lMwr0O4t9PJkLyt6v8rk';//鼓励消息模版id
 var REPLAYTEMPPLATEID = 'IiAVoBWP34u1uwt801rI_Crgen7Xl2lvAGP67ofJLo8';//回复评论消息模版id
-var ZANIMAGEURL = 'https://imgwnagcomcn.oss-cn-shenzhen.aliyuncs.com/2020/03/18/407faa91e2e14.png';//微信鼓励的图片链接，用于个人小程序的赞赏
+var ZANIMAGEURL = 'https://image.wnag.com.cn/2020/03/18/407faa91e2e14.png';//微信鼓励的图片链接，用于个人小程序的赞赏
 var LOGO = "../../images/logo-icon.png"; // 网站的logo图片
 //设置downloadFile合法域名,不带https ,在中括号([])里增加域名，格式：{id=**,domain:'www.**.com'}，用英文逗号分隔。
 //此处设置的域名和小程序与小程序后台设置的downloadFile合法域名要一致。
 var DOWNLOADFILEDOMAIN = [
     { id: 1, domain: 'wnag.com.cn'},
-    { id: 2, domain: 'imgwnagcomcn.oss-cn-shenzhen.aliyuncs.com'},
-    { id: 3, domain: 'imgwnagcomcn.oss-accelerate.aliyuncs.com'},
-    { id: 4, domain: 'thirdwx.qlogo.cn'},
-    { id: 5, domain: 'www.wnag.com.cn'},
-    { id: 6, domain: 'wx.qlogo.cn'},
-    { id: 7, domain: 'image.wnag.com.cn'}
+    { id: 2, domain: 'thirdwx.qlogo.cn'},
+    { id: 3, domain: 'www.wnag.com.cn'},
+    { id: 4, domain: 'wx.qlogo.cn'},
+    { id: 5, domain: 'image.wnag.com.cn'}
 ];
  //首页图标导航
  //参数说明：'name'为名称，'image'为图标路径，'url'为跳转的页面，'redirecttype'为跳转的类型，apppage为本小程序的页面，miniapp为其他微信小程序,webpage为web-view的页面
