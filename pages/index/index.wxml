@@ -100,6 +100,7 @@
 
   <!-- 官方关注公众号 -->
   <official-account></official-account>
+  
   <!-- 文章列表文字 -->
   <view class='common-page-list'>
     <view class='common-page-list-left'><text>文章列表</text></view>
